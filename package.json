@@ -1,0 +1,19 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "challenges from Advent of Code",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "rimraf dist && tsc -p .",
+    "test": "jest --config jest.config.json"
+  },
+  "author": "Nathan Antonietti",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.11",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  }
+}
